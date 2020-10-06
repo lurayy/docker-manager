@@ -1,60 +1,5 @@
-[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
-
 # docker-manager
 React/Python/Django dashboard manager for docker
-
-## Demo
-
-![](demo.gif)
-
-## Installation
-
-Create virtual environment:
-
-```
-> virtualenv env
-```
-
-Activate environment ```Windows```:
-
-```
-> .\env\Scripts\activate
-```
-
-Activate environment ```Linux/MAC```:
-
-```
-> source ./env/bin/activate
-```
-
-Install requirements ```Windows```:
-
-```
-(env) > pip install -r requirements.txt
-```
-
-Install requirements ```Linux/MAC```:
-
-```
-(env) > pip install -r requirements-linux.txt
-```
-
-## Start docker virtual machine (tested with docker toolbox):
-
-```
-docker-machine start default
-```
-
-Check if the environment is up:
-
-```
-docker-machine env
-```
-
-## Configure Docker API (for Docker toolbox)
-
-Follow instructions in the link below to change the port and disable SSL for local testing:
-https://stackoverflow.com/questions/40294853/how-to-enable-docker-api-access-from-windows-running-docker-toolbox-docker-mach
 
 ## Configure Docker API (for Docker Daemon)
 
@@ -116,5 +61,3 @@ And navigate to web address:
 ```
 http://localhost:3000/
 ```
-
-You are done!
