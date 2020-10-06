@@ -1,10 +1,4 @@
-# docker-manager
-React/Python/Django dashboard manager for docker
-
-## Configure Docker API (for Docker Daemon)
-
-Follow instructions in the link below to configure Docker Daemon on Ubuntu:
-https://www.ivankrizsan.se/2016/05/18/enabling-docker-remote-api-on-ubuntu-16-04/
+# Docker Manager
 
 ## Configure ```settings.py``` 
 
